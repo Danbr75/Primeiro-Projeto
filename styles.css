@@ -1,0 +1,62 @@
+
+@charset "UTF-8";
+@font-face {
+    font-family: 'street';
+    src: url(../fontes/fonte.ttf);
+}
+body {
+    
+    margin: 0;
+    padding: 0;
+    background: url('fontes/fonte.ttf') center/cover no-repeat;
+    font-family: 'street', sans-serif; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(imagens/menu-foto.png);
+}
+
+.estrutura {
+    text-align: center;
+    color: red;
+    text-shadow: 2px 2px 0px rgba(255, 255, 0);
+}
+
+h1 {          
+    font-size: 6em;
+    position: relative;
+    top: -80px;
+    white-space: nowrap;
+}
+
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 3.3em;
+    }}
+
+   
+
+button {
+    font-family: 'street';
+    font-size: 1.3em;
+    padding: 10px 20px;
+    margin: 50px;
+    cursor: pointer;
+    background-color:red; 
+    color: yellow;
+    border: none;
+    border-radius:30px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0);
+    
+}
+
+@media (max-width: 900px) {
+    button {
+        font-size: 0.75em;
+    }}
+
+button:hover {
+    background-color: black; 
+}
